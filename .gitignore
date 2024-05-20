@@ -11,3 +11,4 @@ helloworld.db
 local_settings.py
 __pycache__
 venv
+.vercel
