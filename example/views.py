@@ -7,7 +7,7 @@ def index(request):
     html = f'''
     <html>
         <body>
-            <h1>Hello from Vercel!</h1>
+            <h1>FLEX?</h1>
             <p>The current time is { now }. Vercel deploy working. fazul</p>
         </body>
     </html>
