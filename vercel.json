@@ -1,16 +1,13 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "helloworld/wsgi.py",
+  "builds": [{
+      "src": "vercel_app/wsgi.py",
       "use": "@ardnt/vercel-python-wsgi",
       "config": { "maxLambdaSize": "15mb" }
-    }
-  ],
+  }],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "helloworld/wsgi.py"
-    }
+      {
+          "src": "/(.*)",
+          "dest": "vercel_app/wsgi.py"
+      }
   ]
 }
